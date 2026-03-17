@@ -1,0 +1,5 @@
+[site]
+bucket = "."
+entry = "index.js"
+workers_dev = true
+compatibility_date = "2026-03-17"
