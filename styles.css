@@ -18,3 +18,6 @@
 .information-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:30px}.information-links>a{display:block;padding:24px;border:1px solid var(--line);border-radius:10px;background:#fffefa}.information-links strong{display:block;font-size:20px}.information-links span{display:block;color:var(--muted);font-size:16px;margin-top:10px}.footer-links{flex-wrap:wrap}.info-page h1{font-size:clamp(38px,6vw,60px)}.info-page .steps{margin-bottom:32px}@media(max-width:650px){.information-links{grid-template-columns:1fr}}
 
 .optional-coverage{margin-top:12px}.optional-coverage summary{cursor:pointer;min-height:44px;padding:10px 0;font-size:15px}.optional-coverage[hidden]{display:none}.need-group:has(.service-toggle:not(:checked)){padding-block:16px}#why-shaun .steps{margin-top:28px}
+
+/* Readable insurance and Medicare disclosures */
+.disclosure-wrap{padding-top:24px;padding-bottom:24px}.compliance-notice{border:1px solid #819589;border-left:4px solid #9b854c;border-radius:8px;background:#fffefa;color:var(--ink);padding:20px 24px;margin:20px 0;font-size:16px;line-height:1.65}.compliance-notice p{margin:0 0 12px}.compliance-notice p:last-child{margin-bottom:0}.compliance-notice a{text-decoration:underline}.disclosure-wrap .compliance-notice{margin:0}@media(max-width:650px){.compliance-notice{padding:18px}}
