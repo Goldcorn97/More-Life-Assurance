@@ -7,3 +7,11 @@ enabled = true
 
 [assets]
 directory = "."
+
+[[routes]]
+pattern = "morelifeassurance.com"
+custom_domain = true
+
+[[routes]]
+pattern = "www.morelifeassurance.com"
+custom_domain = true
