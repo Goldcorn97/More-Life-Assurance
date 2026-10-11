@@ -21,3 +21,19 @@
 
 /* Readable insurance and Medicare disclosures */
 .disclosure-wrap{padding-top:24px;padding-bottom:24px}.compliance-notice{border:1px solid #819589;border-left:4px solid #9b854c;border-radius:8px;background:#fffefa;color:var(--ink);padding:20px 24px;margin:20px 0;font-size:16px;line-height:1.65}.compliance-notice p{margin:0 0 12px}.compliance-notice p:last-child{margin-bottom:0}.compliance-notice a{text-decoration:underline}.disclosure-wrap .compliance-notice{margin:0}@media(max-width:650px){.compliance-notice{padding:18px}}
+
+/* Contact details and accessible mobile navigation */
+.office-hours{padding-top:24px;padding-bottom:20px}.office-hours h2{font:600 19px/1.5 system-ui,sans-serif;letter-spacing:0}.office-hours p{font-size:16px;margin:10px 0}.office-hours span{font-size:14px}.office-hours a,.credential-link a,.contact-hours a{text-decoration:underline;text-underline-offset:4px}.contact-hours{max-width:900px;margin:0 auto 24px;padding:24px;border:1px solid var(--line);border-radius:10px;background:#e9ede3}.contact-hours p{margin:8px 0}.credential-link{font-size:16px}.mobile-start{display:none}
+a,button,input,textarea,summary{touch-action:manipulation}
+:focus-visible{outline:3px solid #a87820;outline-offset:4px}
+footer :focus-visible,.mobile-start :focus-visible{outline-color:#fff}
+footer a{display:inline-block;min-height:44px;padding-block:10px}
+.footer-top .brand{display:block}.footer-top a{max-width:100%}
+.form-help,.choice-help{font-size:16px}
+.inquiry-form input[type="checkbox"],.inquiry-form input[type="radio"]{min-width:22px;min-height:22px}
+.contact-consent{padding-block:12px}
+.form-field input:user-invalid,.form-field textarea:user-invalid{border:2px solid #9a3025}
+.form-error{color:#84251d;border-left:4px solid #84251d;padding:12px 16px;background:#fff4ef}
+.form-error[hidden]{display:none}
+@media(max-width:650px){body:has(.mobile-start){padding-bottom:calc(86px + env(safe-area-inset-bottom))}.mobile-start{display:block;position:fixed;bottom:0;left:0;right:0;z-index:20;background:var(--deep);padding:12px max(20px,env(safe-area-inset-right)) calc(12px + env(safe-area-inset-bottom)) max(20px,env(safe-area-inset-left));box-shadow:0 -2px 12px #102e2726}.mobile-start .button{width:100%}body:has(.inquiry-form:focus-within) .mobile-start{display:none}html{scroll-padding-bottom:110px}.footer-links{gap:8px 20px}.hero h1{font-size:clamp(38px,10vw,48px)}.actions>*{max-width:100%}.inquiry-form .button{width:100%}.radio-options>label{min-height:48px}.office-hours h2{font-size:20px}}
+@media(forced-colors:active){.button,.service-card,.mobile-start{border:1px solid ButtonText}}
