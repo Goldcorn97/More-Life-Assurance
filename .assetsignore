@@ -1,0 +1,12 @@
+.git
+.github
+.openai
+.wrangler
+node_modules
+.env*
+.dev.vars*
+.gitignore
+.assetsignore
+wrangler.*
+package*.json
+SECURITY.md
